@@ -1,5 +1,5 @@
 {% set name = "torchtitan" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/torchtitan-{{ version }}.tar.gz
-  sha256: 6351b2dc6cdd8bdad15cd2ce5d9520e391a75b584770d2ebd925cc3321cd1b47
+  sha256: 6a39eacfcc613beb118668af7d11057f916b3bbc8816d399e60c4de3722352af
 
 build:
   noarch: python
