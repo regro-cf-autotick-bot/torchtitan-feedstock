@@ -35,7 +35,7 @@ requirements:
     - tomli >=1.1.0
     - tokenizers >=0.15.0
     - torchdata >=0.8.0
-    - torch-checkpointing == 0.1.1
+    - torch-checkpointing ==0.1.1
     - transformers
     - triton
     - tyro
